@@ -10,7 +10,7 @@ If you want to talk to someone with absolute privacy, or simply want to send mes
 ## 🔮 Live Encryption Studio
 
 Access the secure cryptographic workspace instantly here:
-🔗 **[Launch Cyrptix Live Studio Engine](https://pranav-aitha.github.io/Cyrptix/)** *(Replace with your primary project deployment link)*
+🔗 **[Launch Cyrptix Live Studio Engine]((https://pranav-aitha.github.io/Cyrptix/))** *(Replace with your primary project deployment link)*
 
 ---
 
