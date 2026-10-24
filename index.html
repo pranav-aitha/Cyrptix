@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyrptix — Steganographic Visual Text Encryption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Light Highlights -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- Noise Texture Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ── Global Navigation Header ────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand-logo" id="brand-logo-link">
+        <span class="logo-glyph">⬡</span>
+        <span class="logo-name">CYRPTIX</span>
+        <span class="logo-badge">v2.0</span>
+      </a>
+
+      <!-- Module & View Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <button type="button" class="nav-item active" data-nav="home">Home</button>
+        <span class="nav-divider">|</span>
+        <button type="button" class="nav-item" data-module-nav="emoji">🔮 Emoji Matrix</button>
+        <button type="button" class="nav-item" data-module-nav="invisible">👻 Zero-Width</button>
+        <button type="button" class="nav-item" data-module-nav="runic">ᚠ Runic Script</button>
+        <button type="button" class="nav-item" data-module-nav="occult">𓆈 Occult Glyphs</button>
+        <button type="button" class="nav-item" data-module-nav="aesthetic">𝔄 Aesthetic Fraktur</button>
+        <button type="button" class="nav-item" data-module-nav="kaomoji">꒰♡꒱ Kaomoji</button>
+      </nav>
+
+      <!-- Launch Studio CTA button in Header -->
+      <div class="header-actions">
+        <button type="button" class="btn-header-cta" id="header-studio-btn">
+          <span>Open Studio</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main Application Content ────────────────────────────────────────── -->
+  <main class="main-content">
+
+    <!-- ====================================================================
+         SECTION 1: HOME PAGE VIEW
+         ==================================================================== -->
+    <section id="view-home" class="page-view view-active">
+
+      <!-- Hero Section -->
+      <div class="hero-section">
+        <div class="hero-pill">
+          <span class="pulse-dot"></span>
+          <span>Web Crypto API · AES-256-GCM · PBKDF2 600K · 100% Client-Side</span>
+        </div>
+        <h1 class="hero-title">
+          Steganographic Encryption.<br>
+          <span class="gradient-text">Cloaked in Pure Visual Aesthetics.</span>
+        </h1>
+        <p class="hero-description">
+          Encrypt your text with authenticated AES-256-GCM military-grade cryptography,
+          then translate the ciphertext into zero-width invisible streams, arcane occult hieroglyphs,
+          ancient Norse runes, emoji constellations, or Japanese kaomojis.
+        </p>
+
+        <div class="hero-cta-group">
+          <button type="button" class="btn-hero-primary" id="hero-launch-btn">
+            <span>Launch Encryption Studio</span>
+            <span class="hero-btn-glow"></span>
+          </button>
+          <a href="#module-showcase" class="btn-hero-secondary" id="hero-explore-btn">
+            <span>Explore 6 Cipher Engines</span>
+          </a>
+        </div>
+
+        <!-- Security Proof Stat Strip -->
+        <div class="security-stats-strip">
+          <div class="stat-cell">
+            <span class="stat-number">256-bit</span>
+            <span class="stat-label">AES-GCM Key Strength</span>
+          </div>
+          <div class="stat-delimiter"></div>
+          <div class="stat-cell">
+            <span class="stat-number">600,000</span>
+            <span class="stat-label">PBKDF2 SHA-256 Iterations</span>
+          </div>
+          <div class="stat-delimiter"></div>
+          <div class="stat-cell">
+            <span class="stat-number">0.0 ms</span>
+            <span class="stat-label">Network Latency (Zero Tracking)</span>
+          </div>
+          <div class="stat-delimiter"></div>
+          <div class="stat-cell">
+            <span class="stat-number">6 Engines</span>
+            <span class="stat-label">Bijective Visual Decoders</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cipher Module Showcase Grid -->
+      <div class="showcase-section" id="module-showcase">
+        <div class="section-header">
+          <span class="section-tag">TRANSLATION ENGINES</span>
+          <h2 class="section-title">Six Specialized Steganographic Modules</h2>
+          <p class="section-subtitle">
+            Select any engine below or in the header to instantly test and transform your secret payloads.
+          </p>
+        </div>
+
+        <div class="module-cards-grid">
+          <!-- Card 1: Emoji Matrix -->
+          <div class="module-card" data-module="emoji">
+            <div class="card-glow-bg"></div>
+            <div class="module-card-header">
+              <span class="module-badge-icon">🔮</span>
+              <span class="module-category">Chromatic</span>
+            </div>
+            <h3 class="module-title">Emoji Matrix</h3>
+            <p class="module-desc">
+              Maps ciphertext to a 65-symbol elemental and cosmic emoji alphabet. High visual density and fun aesthetics.
+            </p>
+            <div class="sample-box">
+              <span class="sample-label">Preview</span>
+              <div class="sample-glyph-flow">🔮⚡🌀🔥💎🌙✨🎭🗝️🛡️⚔️🌌💀🐉👁️</div>
+            </div>
+            <button type="button" class="btn-card-launch" data-launch-module="emoji">
+              Use Emoji Matrix →
+            </button>
+          </div>
+
+          <!-- Card 2: Zero-Width Invisible -->
+          <div class="module-card card-featured" data-module="invisible">
+            <div class="card-glow-bg"></div>
+            <div class="module-card-header">
+              <span class="module-badge-icon">👻</span>
+              <span class="module-category featured-tag">True Invisibility</span>
+            </div>
+            <h3 class="module-title">Zero-Width Invisible</h3>
+            <p class="module-desc">
+              Bit-shifts cipher streams into non-printable Unicode characters (ZWSP, ZWNJ, ZWJ, WJ). Appears 100% invisible to the naked eye.
+            </p>
+            <div class="sample-box">
+              <span class="sample-label">Preview (Ghost Dot Inspection)</span>
+              <div class="sample-glyph-flow invisible-preview">◦••∙· | ••◦· | ∙·•• | ◦∙·· | •••◦</div>
+            </div>
+            <button type="button" class="btn-card-launch" data-launch-module="invisible">
+              Use Zero-Width Invisible →
+            </button>
+          </div>
+
+          <!-- Card 3: Pseudo-Script / Runic -->
+          <div class="module-card" data-module="runic">
+            <div class="card-glow-bg"></div>
+            <div class="module-card-header">
+              <span class="module-badge-icon">ᚠ</span>
+              <span class="module-category">Historical</span>
+            </div>
+            <h3 class="module-title">Pseudo-Script / Runic</h3>
+            <p class="module-desc">
+              Translates cryptograms into Elder Futhark Norse inscriptions and ancient medieval script markings.
+            </p>
+            <div class="sample-box">
+              <span class="sample-label">Preview</span>
+              <div class="sample-glyph-flow">ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚻᚼᚽᚾᛁᛂᛃᛄᛅᛆᛇᛈᛉᛊᛋᛌ</div>
+            </div>
+            <button type="button" class="btn-card-launch" data-launch-module="runic">
+              Use Runic Script →
+            </button>
+          </div>
+
+          <!-- Card 4: Occult & Esoteric -->
+          <div class="module-card card-featured" data-module="occult">
+            <div class="card-glow-bg"></div>
+            <div class="module-card-header">
+              <span class="module-badge-icon">𓆈</span>
+              <span class="module-category featured-tag">Esoteric Glyphs</span>
+            </div>
+            <h3 class="module-title">Occult &amp; Esoteric</h3>
+            <p class="module-desc">
+              Encodes using Egyptian hieroglyphs, alchemical marks, amogus, musical clefs, and arcane symbols requested by Cyrptix operatives.
+            </p>
+            <div class="sample-box">
+              <span class="sample-label">Preview</span>
+              <div class="sample-glyph-flow">𝄞ཧ𓄧༝ᢉ𐭩❀☠⤵𓆈ඞ✽✶♛⟡ⓘ༯𓆩𓆪ひ𓃶✹౨ৎ</div>
+            </div>
+            <button type="button" class="btn-card-launch" data-launch-module="occult">
+              Use Occult Glyphs →
+            </button>
+          </div>
+
+          <!-- Card 5: Aesthetic Fraktur -->
+          <div class="module-card" data-module="aesthetic">
+            <div class="card-glow-bg"></div>
+            <div class="module-card-header">
+              <span class="module-badge-icon">𝔄</span>
+              <span class="module-category">Typography</span>
+            </div>
+            <h3 class="module-title">Aesthetic Fraktur</h3>
+            <p class="module-desc">
+              Renders cipher payload in Mathematical Gothic Fraktur and Double-Struck characters for a dark academia aesthetic.
+            </p>
+            <div class="sample-box">
+              <span class="sample-label">Preview</span>
+              <div class="sample-glyph-flow">𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛</div>
+            </div>
+            <button type="button" class="btn-card-launch" data-launch-module="aesthetic">
+              Use Aesthetic Fraktur →
+            </button>
+          </div>
+
+          <!-- Card 6: Kaomoji Cipher -->
+          <div class="module-card" data-module="kaomoji">
+            <div class="card-glow-bg"></div>
+            <div class="module-card-header">
+              <span class="module-badge-icon">꒰♡꒱</span>
+              <span class="module-category">Whimsical</span>
+            </div>
+            <h3 class="module-title">Kaomoji Secret</h3>
+            <p class="module-desc">
+              Encodes messages with expressive Japanese ASCII/Unicode face fragments, stars, and playful emoticons.
+            </p>
+            <div class="sample-box">
+              <span class="sample-label">Preview</span>
+              <div class="sample-glyph-flow">꒰꒱ᵕ˘⸝⸜♡˶ɞ⌒‿◞◟°✧ˬˋˊᗜωεδ▿△◠◡</div>
+            </div>
+            <button type="button" class="btn-card-launch" data-launch-module="kaomoji">
+              Use Kaomoji Secret →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- How It Works Cryptographic Flow -->
+      <div class="how-it-works-section">
+        <div class="section-header">
+          <span class="section-tag">ZERO-KNOWLEDGE ARCHITECTURE</span>
+          <h2 class="section-title">How Cyrptix Secures Your Secrets</h2>
+        </div>
+
+        <div class="steps-container">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <h4 class="step-heading">PBKDF2 Key Derivation</h4>
+            <p class="step-text">
+              A 128-bit cryptographic salt is generated via <code>crypto.getRandomValues</code>. Your password undergoes 600,000 rounds of PBKDF2-HMAC-SHA-256 to produce an uncrackable 256-bit symmetric key.
+            </p>
+          </div>
+
+          <div class="step-arrow">→</div>
+
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <h4 class="step-heading">AES-256-GCM Encryption</h4>
+            <p class="step-text">
+              A fresh 96-bit Initialization Vector (IV) protects against replay attacks. Plaintext is encrypted with Galois/Counter Mode, guaranteeing both confidential encryption and cryptographic authenticity.
+            </p>
+          </div>
+
+          <div class="step-arrow">→</div>
+
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <h4 class="step-heading">Bijective Visual Cloaking</h4>
+            <p class="step-text">
+              The packed payload <code>[Salt + IV + Ciphertext + Tag]</code> is transformed through your chosen cipher module into a 100% reversible visual or invisible stream.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ====================================================================
+         SECTION 2: STUDIO WORKSPACE VIEW
+         ==================================================================== -->
+    <section id="view-studio" class="page-view">
+
+      <!-- Studio Header Bar -->
+      <div class="studio-header">
+        <div class="studio-title-group">
+          <button type="button" class="btn-back-home" id="studio-back-btn">
+            ← Back to Home
+          </button>
+          <div class="studio-breadcrumbs">
+            <span class="crumb-root">Cyrptix Studio</span>
+            <span class="crumb-slash">/</span>
+            <span class="crumb-module" id="active-module-crumb">🔮 Emoji Matrix</span>
+          </div>
+        </div>
+
+        <!-- Quick Switcher Tabs in Studio -->
+        <div class="module-tab-strip" role="tablist" id="studio-module-tabs">
+          <button type="button" class="tab-btn active" data-module="emoji" role="tab" title="Emoji Matrix">
+            <span class="tab-icon">🔮</span>
+            <span class="tab-text">Emoji</span>
+          </button>
+          <button type="button" class="tab-btn" data-module="invisible" role="tab" title="Zero-Width Invisible">
+            <span class="tab-icon">👻</span>
+            <span class="tab-text">Zero-Width</span>
+          </button>
+          <button type="button" class="tab-btn" data-module="runic" role="tab" title="Pseudo-Script / Runic">
+            <span class="tab-icon">ᚠ</span>
+            <span class="tab-text">Runic</span>
+          </button>
+          <button type="button" class="tab-btn" data-module="occult" role="tab" title="Occult & Esoteric">
+            <span class="tab-icon">𓆈</span>
+            <span class="tab-text">Occult</span>
+          </button>
+          <button type="button" class="tab-btn" data-module="aesthetic" role="tab" title="Aesthetic Fraktur">
+            <span class="tab-icon">𝔄</span>
+            <span class="tab-text">Fraktur</span>
+          </button>
+          <button type="button" class="tab-btn" data-module="kaomoji" role="tab" title="Kaomoji Secret">
+            <span class="tab-icon">꒰♡꒱</span>
+            <span class="tab-text">Kaomoji</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Active Module Brief Banner -->
+      <div class="active-module-banner card">
+        <div class="banner-icon" id="banner-module-icon">🔮</div>
+        <div class="banner-details">
+          <h3 class="banner-title" id="banner-module-title">Emoji Matrix Module</h3>
+          <p class="banner-desc" id="banner-module-desc">
+            Translates ciphertext into an eye-catching matrix of 65 emojis. Safe for messaging, social bios, and notes.
+          </p>
+        </div>
+        <div class="banner-stat">
+          <span class="stat-badge">AES-256-GCM Active</span>
+        </div>
+      </div>
+
+      <!-- Studio Two-Column Grid: Inputs & Outputs -->
+      <div class="studio-grid">
+
+        <!-- Column 1: Input & Password Configuration -->
+        <div class="studio-col-left">
+
+          <!-- Text Input Card -->
+          <div class="card input-card">
+            <div class="card-title-row">
+              <label for="input-area" class="card-label">
+                <span class="label-dot"></span>
+                <span>Payload Stream</span>
+              </label>
+              <div class="input-actions-bar">
+                <button type="button" class="btn-micro" id="btn-load-sample">Insert Sample</button>
+                <button type="button" class="btn-micro" id="btn-clear-input">Clear</button>
+              </div>
+            </div>
+
+            <!-- Zero-Width Detection Notice Banner (Shows automatically if user pastes invisible characters) -->
+            <div class="invisible-detection-pill" id="invisible-detector-pill" style="display:none;">
+              <span class="pill-icon">👻</span>
+              <span id="invisible-count-text">0 invisible characters detected in input!</span>
+            </div>
+
+            <textarea
+              id="input-area"
+              class="studio-textarea"
+              placeholder="Type or paste plaintext to ENCRYPT... or paste an encoded stream (emojis, runes, invisible characters) to DECRYPT..."
+              spellcheck="false"
+              autocomplete="off"
+            ></textarea>
+
+            <div class="textarea-footer">
+              <span class="char-counter" id="input-char-count">0 characters</span>
+              <span class="hint-text">Paste anywhere to reverse-decode</span>
+            </div>
+          </div>
+
+          <!-- Password Card -->
+          <div class="card password-card">
+            <div class="card-title-row">
+              <label for="password-field" class="card-label">
+                <span class="label-dot"></span>
+                <span>Encryption Passphrase</span>
+              </label>
+              <span class="security-chip">PBKDF2-HMAC-SHA-256</span>
+            </div>
+
+            <div class="password-input-wrapper">
+              <input
+                type="password"
+                id="password-field"
+                class="studio-password-input"
+                placeholder="Enter private master passphrase..."
+                autocomplete="off"
+                spellcheck="false"
+              >
+              <button
+                type="button"
+                class="btn-toggle-eye"
+                id="toggle-password"
+                title="Toggle passphrase visibility"
+                aria-label="Toggle password visibility"
+              >👁️</button>
+            </div>
+
+            <!-- Strength Meter Bar -->
+            <div class="strength-track">
+              <div class="strength-meter" id="strength-meter"></div>
+            </div>
+            <div class="strength-info-row">
+              <span class="strength-hint">Min 8 chars, mixed case, numbers & symbols recommended</span>
+              <span class="strength-badge" id="strength-label">No Passphrase</span>
+            </div>
+          </div>
+
+          <!-- Primary Cryptographic Action Controls -->
+          <div class="action-buttons-grid">
+            <button type="button" class="btn-crypto btn-encrypt" id="encrypt-btn">
+              <span class="btn-icon">🔒</span>
+              <span class="btn-text">Encrypt Payload</span>
+              <span class="btn-glow-layer"></span>
+            </button>
+
+            <button type="button" class="btn-crypto btn-decrypt" id="decrypt-btn">
+              <span class="btn-icon">🔓</span>
+              <span class="btn-text">Decrypt Stream</span>
+            </button>
+          </div>
+
+          <!-- Keyboard shortcut hint -->
+          <div class="keyboard-tip">
+            Press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> to quickly encrypt payload
+          </div>
+
+        </div>
+
+        <!-- Column 2: Status & Output Panel -->
+        <div class="studio-col-right">
+
+          <div class="card output-card">
+            <!-- Output Header & Tool Strip -->
+            <div class="card-title-row">
+              <label class="card-label">
+                <span class="label-dot output-dot"></span>
+                <span>Recovered Stream / Output</span>
+              </label>
+              <div class="output-tools-bar">
+                <!-- Zero-Width Inspector Mode Toggle (Only visible or prominent for Invisible module) -->
+                <button
+                  type="button"
+                  class="btn-tool"
+                  id="btn-inspect-zw"
+                  title="Toggle visible dots for zero-width characters"
+                  style="display:none;"
+                >
+                  👁️ Inspect Invisible Dots
+                </button>
+                <button type="button" class="btn-tool" id="btn-swap-to-input" title="Transfer output to input for instant testing">
+                  ⇄ Send to Input
+                </button>
+                <button type="button" class="btn-tool" id="btn-copy-output" title="Copy output to clipboard">
+                  📋 Copy
+                </button>
+                <button type="button" class="btn-tool" id="btn-clear-output" title="Clear output">
+                  Clear
+                </button>
+              </div>
+            </div>
+
+            <!-- Real-time Status / Error Message Bar -->
+            <div class="status-indicator status-ready" id="status-bar">
+              <span class="status-pulse-circle"></span>
+              <span class="status-message" id="status-message">Engine ready. Awaiting payload.</span>
+            </div>
+
+            <!-- Invisible Character Alert in Output (Tells user output was generated even if invisible) -->
+            <div class="invisible-output-banner" id="invisible-output-banner" style="display:none;">
+              <span class="banner-ghost-icon">👻</span>
+              <div class="banner-ghost-text">
+                <strong>Zero-Width Payload Generated:</strong>
+                <span id="invisible-output-count">128 invisible characters generated.</span>
+                It is 100% invisible on screen! Click <em>Copy</em> to copy it or toggle <em>Inspect Dots</em> to reveal byte markers.
+              </div>
+            </div>
+
+            <!-- Output Display Container with Flicker/Typographic Wipe -->
+            <div class="output-display-wrapper" id="output-wrapper">
+              <div
+                class="output-display-area"
+                id="output-area"
+                tabindex="0"
+                aria-live="polite"
+              ></div>
+            </div>
+
+            <!-- Output Footer Info -->
+            <div class="output-footer">
+              <span class="output-char-counter" id="output-char-count">0 characters</span>
+              <span class="output-status-note" id="output-meta-note">Ready</span>
+            </div>
+
+          </div>
+
+          <!-- Cryptographic Integrity Guarantee Card -->
+          <div class="card security-guarantee-card">
+            <div class="guarantee-header">
+              <span class="guarantee-shield">🛡️</span>
+              <h4>GCM Authentication Active</h4>
+            </div>
+            <p class="guarantee-text">
+              AES-GCM verifies every single byte. If a single character is tampered with or the wrong password is submitted, decryption fails with an absolute cryptographic integrity exception.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ── Global Stylish Footer ───────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-typewriter-container">
+        <!-- Auto-typing dynamic text required by specification -->
+        <span class="footer-typewriter" id="footer-text"></span>
+        <span class="footer-cursor" aria-hidden="true">▊</span>
+      </div>
+
+      <!-- Social Links with Proper SVG Icons and Glowing Blinking Animation -->
+      <div class="footer-social-links">
+        <a
+          href="https://github.com/pranav-aitha/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-link social-github"
+          title="GitHub — @pranav-aitha"
+          aria-label="GitHub Profile of Pranav Aitha"
+        >
+          <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span class="social-name">GitHub</span>
+          <span class="social-dot"></span>
+        </a>
+
+        <a
+          href="https://www.instagram.com/pranav_aitha/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-link social-instagram"
+          title="Instagram — @pranav_aitha"
+          aria-label="Instagram Profile of Pranav Aitha"
+        >
+          <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span class="social-name">Instagram</span>
+          <span class="social-dot"></span>
+        </a>
+
+        <a
+          href="https://x.com/PRANAV_AITHA"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-link social-x"
+          title="X (Twitter) — @PRANAV_AITHA"
+          aria-label="X Profile of Pranav Aitha"
+        >
+          <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          <span class="social-name">X.com</span>
+          <span class="social-dot"></span>
+        </a>
+      </div>
+
+      <div class="footer-meta-line">
+        <span>CYRPTIX SECURE CRYPTOSYSTEM</span>
+        <span class="meta-dot">·</span>
+        <span>NO EXTERNAL ASSETS</span>
+        <span class="meta-dot">·</span>
+        <span>NO TRACKING</span>
+        <span class="meta-dot">·</span>
+        <span>AES-256-GCM / PBKDF2</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="ciphers.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
