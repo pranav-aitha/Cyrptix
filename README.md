@@ -1,10 +1,6 @@
 # ⬡ CYRPTIX v2.0
 > **Steganographic Encryption. Cloaked in Pure Visual Aesthetics.**
 
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Security: AES--256--GCM](https://shields.io)](https://mozilla.org)
-[![Environment: 100%25--Local](https://shields.io)]()
-
 Cyrptix v2.0 is a client-side steganographic workshop designed to protect your private communications. It takes your sensitive text, seals it with authenticated military-grade cryptography, and completely cloaks the output by translating it into beautiful, mysterious visual aesthetics—or completely invisible streams. 
 
 If you want to talk to someone with absolute privacy, or simply want to send messages that look entirely different from anything else on the internet, this tool is the ultimate vault for your secrets.
