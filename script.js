@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
             // The message you want to display in the Chrome tab
-            const textToType = "My Portfolio Website "; 
+            const textToType = "⬡ Cyrptix —  🛡 Steganographic Visual Text Encryption 🔐 "; 
             let index = 0;
             let isDeleting = false;
 
