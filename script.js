@@ -1,5 +1,4 @@
-const text = "⬡ Cyrptix — 🛡 Steganographic Visual Text Encryption 🔐"; let i = 0; setInterval(() => { document.title = text.substring(0, i + 1); i = (i + 1) % (text.length + 1); }, 200);
-
+let t="⬡ Cyrptix — 🛡 Steganographic Visual Text Encryption 🔐", i=0; setInterval(() => { document.title = t.substring(0, i+1); i = (i + 1) % t.length; }, 150);
 /**
  * ============================================================================
  * CYRPTIX — Application Orchestrator v2.0
