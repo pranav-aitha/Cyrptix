@@ -41,7 +41,7 @@ Cyrptix features six fully decoupled translation engines that you can swap betwe
 You can access and launch the encryption studio in three flexible configurations:
 
 ### Method 1: Instant Web Link (Recommended)
-Simply open the **[Live Studio Link](https://pranav-aitha.github.io/OnDevice/)** in any modern web browser. The system initializes instantly with zero setup.
+Simply open the **[Live Studio Link]((https://pranav-aitha.github.io/Cyrptix/))** in any modern web browser. The system initializes instantly with zero setup.
 
 ### Method 2: Clone the Git Trees
 If you prefer running a local build on your machine, clone the repository via your command line:
